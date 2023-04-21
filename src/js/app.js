@@ -1,3 +1,5 @@
+import Image from '../img/goblin.png'
+
 export default function Game () {
   Array.prototype.random = function () {
     return this[Math.floor(Math.random() * this.length)];
@@ -8,7 +10,7 @@ export default function Game () {
     let count = 0;
     const counter = document.querySelector(".counter");
     const img = new Image();
-    img.src = 'img/goblin.png';
+    img.src = Image;
     img.alt = 'goblin'
     fieldArray.random().appendChild(img);
   
