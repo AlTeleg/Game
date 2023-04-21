@@ -1,4 +1,4 @@
 import "./css/style.css";
-import Game from "./js/app";
+import game from "./js/app";
 
-Game();
+game();

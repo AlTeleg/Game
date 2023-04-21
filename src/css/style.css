@@ -14,8 +14,12 @@
 
 .counter {
     font-size: 30px;
-    margin: 50px;
+    margin: 200px;
 }
+
+.rotated {
+    transform: rotate(5deg); 
+  }
 
 body {
     background-color: red;
@@ -30,8 +34,10 @@ h1 {
     width: 200px;
     font: 40px;
     text-align: center;
-    margin: 50px;
+    margin: 200px;
 }
+
+
 
 
 
