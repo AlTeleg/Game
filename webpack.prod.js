@@ -6,13 +6,9 @@ module.exports = merge(common, {
   mode: 'production',
   optimization: {
     minimizer: [
-      new CssMinimizerPlugin(),
+      new CssMinimizerPlugin({
+        exclude: /\/app/,
+      }),
     ],
-    "scripts": true,
-    "styles": {
-       "minify": false,
-       "inlineCritical": false
-    },
-    "fonts": true
   },
 });
