@@ -1,0 +1,47 @@
+.game_container {
+    height: 520px;
+    width: 520px;
+    background-color: rgb(16, 0, 109);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game_field {
+    height: 128px;
+    width: 128px;
+    border: 1px black solid;
+}
+
+.counter {
+    font-size: 30px;
+    margin: 200px;
+}
+
+.rotated {
+    transform: rotate(5deg); 
+  }
+
+body {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h1 {
+    width: 200px;
+    font: 40px;
+    text-align: center;
+    margin: 200px;
+}
+
+
+
+
+
+
+
+
+
