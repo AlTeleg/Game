@@ -32,31 +32,37 @@ export default function game() {
 
     setTimeout(() => {
       container.style.transform = "rotate(45deg)";
+      img.style.transform = "rotate(-45deg)";
     }, 6000);
 
     setTimeout(() => {
       container.style.transform = "rotate(0deg)";
+      img.style.transform = "rotate(0deg)";
     }, 10000);
 
     setTimeout(() => {
       container.style.transform = "rotate(-45deg)";
+      img.style.transform = "rotate(45deg)";
     }, 13000);
 
     setTimeout(() => {
       setInterval(() => {
         container.style.transform = "rotate(45deg)";
+        img.style.transform = "rotate(-45deg)";
       }, 1500);
     }, 18000);
 
     setTimeout(() => {
       setInterval(() => {
         container.style.transform = "rotate(0deg)";
+        img.style.transform = "rotate(0deg)";
       }, 5000);
     }, 20000);
 
     setTimeout(() => {
       setInterval(() => {
         container.style.transform = "rotate(-45deg)";
+        img.style.transform = "rotate(45deg)";
       }, 2000);
     }, 26000);
 
