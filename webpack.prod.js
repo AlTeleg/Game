@@ -8,5 +8,11 @@ module.exports = merge(common, {
     minimizer: [
       new CssMinimizerPlugin(),
     ],
+    "scripts": true,
+    "styles": {
+       "minify": false,
+       "inlineCritical": false
+    },
+    "fonts": true
   },
 });
